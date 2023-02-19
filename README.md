@@ -1,9 +1,11 @@
 # Kubernetes / K3s / K3d
 
-Kubernetes: also known as K8s, is an open-source system for automating deployment,
-scaling, and management of containerized applications.
-K3S: Lightweight Kubernetes
-K3D: a lightweight wrapper to run k3s (Rancher Lab’s minimal Kubernetes distribution) in docker.
+> Kubernetes: also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
+
+> K3S: Lightweight Kubernetes
+
+> K3D: a lightweight wrapper to run k3s (Rancher Lab’s minimal Kubernetes distribution) in docker.
+
 
 
 
