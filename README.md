@@ -28,6 +28,7 @@ K3D: a lightweight wrapper to run k3s (Rancher Lab’s minimal Kubernetes distri
    https://docs.docker.com/desktop/install/linux-install/
 
    Add user to group 'docker'
+
    > ~# sudo systemctl start docker
 
 
@@ -43,6 +44,7 @@ K3D: a lightweight wrapper to run k3s (Rancher Lab’s minimal Kubernetes distri
    > wget -q -O - https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
 
    > ~# k3d cluster create mycluster
+
    > ~# kubectl get nodes
 
 
@@ -58,6 +60,7 @@ K3D: a lightweight wrapper to run k3s (Rancher Lab’s minimal Kubernetes distri
    > https://github.com/kubernetes/dashboard/blob/master/docs/user/access-control/creating-sample-user.md
 
    > ~# kubectl apply -f dashboard-adminuser.yaml
+
    > ~# kubectl apply -f clusterrolebinding.yaml
 
 
@@ -65,6 +68,7 @@ K3D: a lightweight wrapper to run k3s (Rancher Lab’s minimal Kubernetes distri
    -- Dashboard:
 
    > ~# kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.7.0/aio/deploy/recommended.yaml
+
    > ~# kubectl proxy
 
    > In browser: http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/
